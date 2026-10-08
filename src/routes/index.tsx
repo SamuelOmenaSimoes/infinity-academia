@@ -119,7 +119,7 @@ function Header() {
     >
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between gap-4 px-5 lg:px-10">
         <a href="#inicio" className="flex shrink-0 items-center" aria-label="Infinity Academia">
-          <img src={logo.url} alt="Infinity Academia" className="h-14 w-14 object-contain" />
+          <img src={logo.url} alt="Infinity Academia" className="h-16 w-16 object-contain" />
         </a>
         <nav className="hidden items-center gap-9 lg:flex">
           {NAV.map((n) => (
@@ -426,10 +426,10 @@ function Hours() {
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-muted-foreground">
               Segunda a sexta
             </p>
-            <p className="mt-6 font-display text-6xl leading-none sm:text-8xl lg:text-9xl">
+            <p className="mt-6 whitespace-nowrap font-display text-[13vw] leading-none sm:text-7xl xl:text-8xl">
               06:00<span className="text-primary"> — </span>11:00
             </p>
-            <p className="mt-4 font-display text-6xl leading-none sm:text-8xl lg:text-9xl">
+            <p className="mt-4 whitespace-nowrap font-display text-[13vw] leading-none sm:text-7xl xl:text-8xl">
               13:00<span className="text-primary"> — </span>21:00
             </p>
           </div>
@@ -437,7 +437,7 @@ function Hours() {
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-muted-foreground">
               Sábado
             </p>
-            <p className="mt-6 font-display text-6xl leading-none sm:text-8xl lg:text-9xl">
+            <p className="mt-6 whitespace-nowrap font-display text-[13vw] leading-none sm:text-7xl xl:text-8xl">
               09:00<span className="text-primary"> — </span>12:00
             </p>
           </div>
